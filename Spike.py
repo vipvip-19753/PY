@@ -14,14 +14,14 @@ from datetime import datetime, timedelta, timezone
 # Database Configuration
 MONGO_URI = 'mongodb+srv://harry:Sachdeva@cluster1.b02ct.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1'
 client = MongoClient(MONGO_URI)
-db = client['NARENDRA']
+db = client['NARUBHA']
 users_collection = db['users']
 settings_collection = db['settings']  # A new collection to store global settings
 redeem_codes_collection = db['redeem_codes']
 attack_logs_collection = db['user_attack_logs']
 
 # Bot Configuration
-TELEGRAM_BOT_TOKEN = '7817915806:AAGi1eENgqIPuTJseXma9KMWR-IOF6QjMDQ'
+TELEGRAM_BOT_TOKEN = '7793865488:AAHkLujXu_T0CN9GuYH19KrRYEtgiuAIsKo'
 ADMIN_USER_ID = 2128531830
 COOLDOWN_PERIOD = timedelta(minutes=1) 
 user_last_attack_time = {} 
