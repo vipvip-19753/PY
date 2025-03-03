@@ -21,7 +21,7 @@ redeem_codes_collection = db['redeem_codes']
 attack_logs_collection = db['user_attack_logs']
 
 # Bot Configuration
-TELEGRAM_BOT_TOKEN = '7817915806:AAGi1eENgqIPuTJseXma9KMWR-IOF6QjMDQ'
+TELEGRAM_BOT_TOKEN = '7216203077:AAGqiPt9iJ1b4PdpLhYbbwQi6fsGw-3IZPo'
 ADMIN_USER_ID = 2128531830
 COOLDOWN_PERIOD = timedelta(minutes=1) 
 user_last_attack_time = {} 
@@ -672,7 +672,7 @@ async def attack(update: Update, context: CallbackContext):
 
     # Send attack details to user
     await context.bot.send_message(chat_id=chat_id, text=( 
-        f"*⚡ ÐȺƦʞᏔǝß 𐌀丅丅ɐcʞ ℓαυη¢ђє∂! ☠️*\n"
+        f"*⚡ welcome to THOR Ddos bot! ☠️*\n"
         f"*🎯 Target: {ip}:{port}*\n"
         f"*⌛ Duration: {duration} seconds*\n"
         f"*🔰•------» 𝙻𝚎𝚝 𝚑𝚎 𝚋𝚊𝚝𝚝𝚕𝚎𝚏𝚒𝚎𝚕𝚍 𝚒𝚐𝚗𝚢𝚝𝚎! «------•☢️*"
